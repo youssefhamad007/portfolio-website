@@ -1,0 +1,56 @@
+.poppins{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.a{
+ font-size: 5.8vw;
+    color: white;
+    animation: animated-text 5s steps(35,end) 0.5s 1 normal both,
+    animated-cursor 750ms steps(16,end) infinite;
+    border-right: solid 3px rgba(0, 0, 0, 0.75);
+    white-space: pre;
+    overflow: hidden;     
+    letter-spacing: 0.20rem;
+    padding-top: 120px;
+    position: relative;
+    z-index: 10;
+    max-height: 35vb;
+    top: 0;
+    max-width: 100%;
+}
+.one{
+    inset: 0;
+    position: absolute;
+    z-index: 0;
+    background-image: url(/mob.png);
+background-position: bottom;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.two{
+    inset: 0;
+    position: absolute;
+    z-index: 20;
+    background-image: url(/mo.png);
+background-position: bottom;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.sec1{
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+}
+
+
+@keyframes animated-text{
+    from{width: 0%;}
+    to{width: 100%;}
+}
+@keyframes animated-cursor{
+    from{border-right-color: #0080ff;}
+    to{border-right-color: transparent;}
+}

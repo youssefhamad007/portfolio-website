@@ -1,0 +1,34 @@
+.section1{
+    padding-top: 50px;
+    max-width: 100%;
+    max-height: 100vw;
+    flex-direction: column;
+    align-items: center;
+}
+.ph{
+    border: solid 0.5px transparent ;
+    border-radius:50%;
+    height: 275px;
+    width: 275px;
+    background-image:url(../components/img/IMG_20240510_041703_756.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 10;
+}
+.ph:hover{
+    box-shadow: 1px 1px 10px 2px   white;
+scale: 1.05;
+}
+@keyframes fade{
+    from{
+        opacity: 0;
+    transform: translateX(-1000px);
+    }
+    to{
+        opacity: 1;
+    transform: translateX(0px);
+    }
+}
+

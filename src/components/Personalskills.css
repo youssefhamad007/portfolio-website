@@ -1,0 +1,73 @@
+.e{
+    justify-self: center;
+}
+.c{
+    padding-top: 100px;
+    font-size: 8vw;
+    color: white;
+}
+
+.skills{
+    flex-direction: row;
+    padding-top: 100px;
+    overflow: hidden;
+}
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.container .glass {
+    position: relative;
+    width: 16vw;
+    height: 40vh;
+    background: linear-gradient(#0080ff, transparent);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 25px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 10px;
+    margin: 0 -28px ;
+    backdrop-filter: blur(20px);
+    z-index: 20;
+    font-size: 1.2vw;
+    transition: all ease-in-out .5s;
+}
+
+.container .glass:hover {
+    transform: rotate(0deg);
+    margin: 0px 10px ;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.container .glass::before {
+    content: attr(data-text);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.f{
+    font-size: 1.5vw;
+    justify-self: center;
+    color: white;
+    text-align: center;
+}
+
+.data-text{
+    font-size: 2px;
+}
+
+

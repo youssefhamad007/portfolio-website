@@ -1,0 +1,58 @@
+.containerMost{
+    width: 100%;
+    position: relative;
+    
+  }
+  #root{
+    background: rgba(20, 20, 20, 0.687)
+}
+.photo6{
+background-image: url(./assets/test3.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom;
+width: 100vw;
+overflow: hidden;
+position: relative;
+height: 100vh;
+}
+.photo7{
+  background-image: url(./assets/Education.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
+  }
+  .photo8{
+    background-image: url(./assets/Project.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    min-height: 100vh;
+    }
+    .photo9{
+      background-image: url(./assets/skills.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      width: 100vw;
+      overflow: hidden;
+      position: relative;
+      height: 100vh;
+      }
+      .photo10{
+        height: 100vh;
+        overflow: hidden;
+        width: 100vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        background-color: #000;
+      }

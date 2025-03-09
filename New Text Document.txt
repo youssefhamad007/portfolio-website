@@ -1,0 +1,13 @@
+      <Header></Header>
+      <Photo></Photo>
+      <Title></Title>
+      <About></About>
+      <Educaion></Educaion>
+      <Educationcontent></Educationcontent>
+      <Flebcard></Flebcard>
+      <Projects></Projects>
+      <Projects3dcard></Projects3dcard>
+      <Personalskills></Personalskills>
+      <Personalskillscontent></Personalskillscontent>
+      <Contact></Contact>
+      <Contactcontent></Contactcontent>

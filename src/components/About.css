@@ -1,0 +1,20 @@
+.p {
+    width: 100vw;
+    color: white;
+    font-size: 50px;  
+    max-height: 50vh; 
+}
+.section2{
+    height: 50vh;
+}
+
+.poppins{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+@media(max-width: 675px){
+    .p{
+        font-size: 15px;
+    }
+}
