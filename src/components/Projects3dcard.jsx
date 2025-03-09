@@ -17,7 +17,7 @@ const Card = () => {
         <div className="card">
         <div className="content-box">
             <span className="card-title">Clothes shopping site</span>
-            <span className="see-more">See More</span>
+            <span className="see-more" href="https://youssefhamad007.github.io/portfolio-website/">See More</span>
         </div>
         <div className="date-box">
             <span className="month">March</span>
@@ -45,7 +45,7 @@ const Card = () => {
         <div className="card">
         <div className="content-box">
             <span className="card-title">Portfolio Website bro</span>
-            <span className="see-more">See More</span>
+            <span className="see-more" onClick={()=> window.open("https://youssefhamad007.github.io/portfolio-website/","_blank")}>See More</span>
         </div>
         <div className="date-box">
             <span className="month">May</span>
@@ -58,8 +58,8 @@ const Card = () => {
     <div className="parent parent4">
         <div className="card">
         <div className="content-box">
-            <span className="card-title">Interactive To-Do List</span>
-            <span className="see-more">See More</span>
+            <span className="card-title" >Interactive To-Do List</span>
+            <span className="see-more" onClick={()=> window.open("https://youssefhamad007.github.io/To-Do-List/","_blank")}>See More</span>
         </div>
         <div className="date-box">
             <span className="month">JUNE</span>
