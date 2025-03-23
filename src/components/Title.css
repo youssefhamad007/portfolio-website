@@ -23,7 +23,7 @@
     inset: 0;
     position: absolute;
     z-index: 0;
-    background-image: url(/mob.png);
+    background-image: url(../assets/mob.png);
 background-position: bottom;
 background-repeat: no-repeat;
 background-size: cover;
@@ -33,7 +33,7 @@ background-size: cover;
     inset: 0;
     position: absolute;
     z-index: 20;
-    background-image: url(/mo.png);
+    background-image: url(../assets/mo.png);
 background-position: bottom;
 background-size: cover;
 background-repeat: no-repeat;
